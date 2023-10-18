@@ -1,0 +1,10 @@
+[Unit]
+Description=ADMPlus
+
+[Service]
+Type=forking
+ExecStart=/bin/autoinicios
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
